@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hb.rimi.angel.activity.home.CheckPaymentActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ria_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11A8BB"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="详细报告"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+
+
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:id="@+id/frame_type_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+    <FrameLayout
+        android:id="@+id/frame_type_pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+    <FrameLayout
+        android:id="@+id/frame_type_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+</LinearLayout>

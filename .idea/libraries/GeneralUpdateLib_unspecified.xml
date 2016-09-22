@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="GeneralUpdateLib-unspecified">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/AngeForPatient/GeneralUpdateLib/unspecified/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/AngeForPatient/GeneralUpdateLib/unspecified/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

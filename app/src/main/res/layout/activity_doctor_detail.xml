@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/da_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_blue_reg"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/label_doctor_detail"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+        <LinearLayout
+            android:id="@+id/dol_ll_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/dimen_login_left">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_aa_right_iv"
+                android:layout_height="@dimen/dimen_aa_right_iv"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/selector_mva_home"
+                android:scaleType="centerInside" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dimen_login_left">
+
+                <ImageView
+                    android:id="@+id/dda_iv_docimg"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/ic_launcher" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dimen_reg_brn"
+                    android:layout_toRightOf="@id/dda_iv_docimg"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dda_tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_home_menu_txt"
+                        android:textSize="@dimen/s18p" />
+
+                    <TextView
+                        android:id="@+id/dda_tv_position"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_mine_padding"
+                        android:textColor="@color/color_aa_doctor_name"
+                        android:textSize="@dimen/s16p" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+
+            <RelativeLayout
+                android:id="@+id/dda_rl_individual_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_bg_selector"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_login_left"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/add_iv_from"
+                    android:layout_width="@dimen/dimen_dda_down"
+                    android:layout_height="@dimen/dimen_dda_down"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/icon_individual_resume_focus" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dimen_reg_brn"
+                    android:layout_toRightOf="@id/add_iv_from"
+                    android:text="@string/str_dda_from"
+                    android:textSize="@dimen/s16p" />
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_dda_down"
+                    android:layout_height="@dimen/dimen_dda_down"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/icon_dda_down_focus" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/dda_ll_individual_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/dda_tv_individual_from"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_login_left"
+                    android:text="@string/str_dda_individual_from" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/color_view_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/dda_rl_individual_resume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue_reg"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_login_left">
+
+                <ImageView
+                    android:id="@+id/add_iv_resume"
+                    android:layout_width="@dimen/dimen_dda_down"
+                    android:layout_height="@dimen/dimen_dda_down"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/icon_individual_resume_normal" />
+
+                <TextView
+                    android:id="@+id/dda_title_tv_individual_resume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dimen_reg_brn"
+
+                    android:textColor="@color/white"
+                    android:layout_toRightOf="@id/add_iv_resume"
+                    android:text="@string/str_dda_individual_resume"
+                    android:textSize="@dimen/s16p" />
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_dda_down"
+                    android:layout_height="@dimen/dimen_dda_down"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/icon_dda_down_focus" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+
+            <LinearLayout
+                android:id="@+id/dda_ll_individual_resume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dda_tv_individual_resume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_login_left"
+                    android:text="@string/str_dda_individual_resume" />
+
+                <RelativeLayout
+                    android:id="@+id/dda_rl_open"
+                    android:background="@color/color_open_close"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/dda_iv_open"
+                        android:layout_width="@dimen/dimen_dda_down"
+                        android:layout_height="@dimen/dimen_dda_down"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerInside"
+                        android:src="@mipmap/icon_dda_down_focus" />
+
+                    <TextView
+                        android:id="@+id/dda_tv_open"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_login_left"
+                        android:layout_marginRight="@dimen/dimen_login_left"></TextView>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/color_view_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/dda_rl_label_professional_qualification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_bg_selector"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_login_left"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/add_iv_professional_qualification"
+                    android:layout_width="@dimen/dimen_dda_down"
+                    android:layout_height="@dimen/dimen_dda_down"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/icon_professional_qualifications_focus" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dimen_reg_brn"
+                    android:layout_toRightOf="@id/add_iv_professional_qualification"
+                    android:text="@string/str_dda_professional_qualification"
+                    android:textSize="@dimen/s16p" />
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_dda_down"
+                    android:layout_height="@dimen/dimen_dda_down"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/icon_dda_down_focus" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/dda_ll_professional_qualification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/dda_tv_professional_qualification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_login_left"
+                    android:text="@string/str_dda_professional_qualification" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/color_view_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/dda_rl_good_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_bg_selector"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_login_left"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/add_iv_good_field"
+                    android:layout_width="@dimen/dimen_dda_down"
+                    android:layout_height="@dimen/dimen_dda_down"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/icon_good_field_focus" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dimen_reg_brn"
+                    android:layout_toRightOf="@id/add_iv_good_field"
+                    android:text="@string/str_dda_good_field"
+                    android:textSize="@dimen/s16p" />
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_dda_down"
+                    android:layout_height="@dimen/dimen_dda_down"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/icon_dda_down_focus" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+
+                android:id="@+id/dda_ll_good_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/dda_tv_good_field"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:padding="@dimen/dimen_login_left"
+                    android:text="@string/str_dda_good_field" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/color_view_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/dda_ll_appoint_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue_reg"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_login_left">
+
+                <ImageView
+                    android:id="@+id/dda_iv_time"
+                    android:layout_width="@dimen/dimen_dda_down"
+                    android:layout_height="@dimen/dimen_dda_down"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/icon_appointment_normal" />
+
+                <TextView
+                    android:id="@+id/dda_tv_apptime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dimen_dda_time"
+                    android:textColor="@color/white"
+                    android:layout_toRightOf="@id/dda_iv_time"
+                    android:text="@string/str_dda_appointment_time"
+                    android:textSize="@dimen/s16p" />
+
+                <ImageView
+                    android:id="@+id/doctor_line_phone"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/hot_tel" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/dda_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!--常用字体大小-->
+    <dimen name="s10p">10sp</dimen>
+    <dimen name="s12p">12sp</dimen>
+    <dimen name="s14p">14sp</dimen>
+    <dimen name="s16p">16sp</dimen>
+    <dimen name="s18p">18sp</dimen>
+    <dimen name="s20p">20sp</dimen>
+    <dimen name="s22p">22sp</dimen>
+    <dimen name="s24p">24sp</dimen>
+    <dimen name="s26p">26sp</dimen>
+    <dimen name="s28p">28sp</dimen>
+    <dimen name="s30p">30sp</dimen>
+    <dimen name="s32p">32sp</dimen>
+
+    <dimen name="dimen_mine_padding">5dp</dimen>
+    <dimen name="dimen_login_left">16dp</dimen>
+    <dimen name="dimen_login_wx_alpay">15sp</dimen>
+    <dimen name="dimen_login_btn">18sp</dimen>
+    <dimen name="dimen_login_et">16sp</dimen>
+    <dimen name="dimen_login_cancel">15sp</dimen>
+    <dimen name="dimen_reg_click_get">60px</dimen>
+    <dimen name="dimen_reg_brn">10dp</dimen>
+    <dimen name="dimen_home_menu_txt">16sp</dimen>
+    <dimen name="dimen_aa_right_iv">30dp</dimen>
+    <dimen name="dimen_aa_right_line">2dp</dimen>
+    <dimen name="dimen_dda_down">30dp</dimen>
+    <dimen name="dimen_dda_time">10dp</dimen>
+    <dimen name="dimen_iat_rl">10dp</dimen>
+    <dimen name="dimen_iat_left">46dp</dimen>
+    <dimen name="dimen_card_padding">10dp</dimen>
+
+
+    <!--就诊凭证-->
+    <dimen name="dimen_mva_type">18sp</dimen>
+    <dimen name="dimen_mva_person">15sp</dimen>
+
+    <dimen name="dimen_mva_padding_left">10dp</dimen>
+    <dimen name="dimen_mva_padding_Top">16dp</dimen>
+
+    <dimen name="dimen_mva_margin_Top">6dp</dimen>
+    <dimen name="dimen_mva_margin_Left">10dp</dimen>
+
+    <dimen name="dimen_add_user_margin_Left">10dp</dimen>
+    <dimen name="dimen_ba_notice">10dp</dimen>
+    <dimen name="dimen_ibt_top">3dp</dimen>
+
+    <dimen name="dimen_ibt_margin">10dp</dimen>
+
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/warn_et_round_corners"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@mipmap/warning_inpwd" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="为保护您的隐私，请输入登录密码"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_alert_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/warn_et_round_corners"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/warn_round_corners"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_alert_ok"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/trans"
+            android:text="ok"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/s18p" />
+    </LinearLayout>
+</LinearLayout>

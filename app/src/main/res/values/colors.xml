@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--常用颜色-->
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="black">#000000</color>
+    <color name="gold">#FFD700</color>
+    <color name="green">#008000</color>
+    <color name="red">#FF0000</color>
+    <color name="purple">#800080</color>
+    <color name="skyBlue">#87CEEB</color>
+    <color name="blue">#0000FF</color>
+    <color name="orange">#ea8010</color>
+    <color name="color_view_line">#DDDDDD</color>
+
+    <color name="trans">#00000000</color>
+    <color name="color_quick_login">#b9b9b9</color>
+    <color name="color_login_bg">#edeff1</color>
+    <color name="color_black_two">#666666</color>
+    <color name="color_blue_reg">#11a8bb</color>
+    <color name="color_hint">#b9b9b9</color>
+    <color name="color_home_menu_txt">#1e1e1e</color>
+    <color name="color_tab_bg">#f6f6f6</color>
+    <color name="colorHalfTrans">#b0000000</color>
+
+    <color name="color_bg_selected">#00BCD4</color>
+    <color name="color_bg_normal">#e7e7e8</color>
+    <color name="color_aa_doctor_name">#11a8bb</color>
+    <color name="color_iv_appoint_full">#ff3334</color>
+    <color name="color_iv_appoint_ok">#70cbd6</color>
+    <color name="color_pay_btn">#ff9c00</color>
+    <color name="color_warn">#bababa</color>
+
+    <!--就诊凭证-->
+    <color name="color_mva_type">#11a8bb</color>
+    <color name="color_mva_person">#666666</color>
+    <color name="color_mva_bg">#edeff1</color>
+    <color name="color_mva_title">#11a8bb</color>
+    <color name="color_add_user_bg">#edeff1</color>
+
+    <color name="color_apa_et">#11A8BB</color>
+    <color name="color_open_close">#dddddd</color>
+</resources>

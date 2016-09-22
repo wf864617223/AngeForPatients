@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hb.rimi.angel.activity.home.CheckPaymentActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/desa_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11A8BB"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/desa_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="检查项详情"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/dda_tv_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_round_corners_time"
+            android:padding="5dp"
+            android:textSize="@dimen/s16p" />
+    </LinearLayout>
+</LinearLayout>

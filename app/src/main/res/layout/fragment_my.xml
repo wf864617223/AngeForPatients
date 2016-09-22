@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ma_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11A8BB"
+        android:minHeight="?attr/actionBarSize">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="@string/label_mine"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+    </android.support.v7.widget.Toolbar>
+    <!--android:background="?attr/colorPrimary"-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/include_top"
+                layout="@layout/include_mine_fragment_top" />
+
+            <include
+                android:id="@+id/include_body"
+                layout="@layout/include_mine_fragment_body" />
+
+            <Button
+                android:id="@+id/btn_loginOut"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="35dp"
+                android:background="@mipmap/btn_changepwd"
+                android:text="@string/str_mine_safe_loginout"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

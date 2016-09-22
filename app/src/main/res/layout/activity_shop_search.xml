@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hb.rimi.angel.activity.marker.ShopSearchActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/shop_search_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11A8BB"
+        android:minHeight="?attr/actionBarSize">
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:drawableLeft="@mipmap/search"
+            android:layout_height="wrap_content"
+            android:hint="尽情的搜索吧！"
+            android:background="@drawable/shape"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+    </android.support.v7.widget.Toolbar>
+    <!--<TextView
+        android:id="@+id/tv_hot_search"
+        android:text="@string/str_shop_hot_search"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>-->
+    <!--<TextView-->
+        <!--android:id="@+id/tv_result_nodata"-->
+        <!--android:visibility="gone"-->
+        <!--android:text="没有任何结果"-->
+        <!--android:gravity="center"-->
+        <!---->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/shop_swipe_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/shop_recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+    <GridView
+        android:id="@+id/gv_searchResult"
+        android:numColumns="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></GridView>
+</LinearLayout>

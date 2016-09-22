@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hb.rimi.angel.fragment.ShopFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/ma_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#11A8BB"
+            android:minHeight="?attr/actionBarSize">
+            <ImageView
+                android:id="@+id/iv_car_bus"
+                android:src="@mipmap/buy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+
+                <Button
+                    android:id="@+id/btn_search"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_width="200dp"
+                    android:drawableLeft="@mipmap/search"
+                    android:layout_height="30dp"
+                    android:hint="尽情的搜索吧！"
+                    android:background="@drawable/shape"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimen_login_btn" />
+            <ImageView
+                android:id="@+id/iv_bus_style"
+                android:src="@mipmap/classify"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </android.support.v7.widget.Toolbar>
+        <GridView
+            android:id="@+id/gv_bus"
+            android:layout_weight="1"
+            android:numColumns="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/tv_addmore"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/s20p"
+            android:text="点击加载更多" />
+    </LinearLayout>
+
+
+
+</FrameLayout>

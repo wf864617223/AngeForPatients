@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug$Generated" generated="true"><source path="D:\StudioSpace\AngeForPatient\timeslibrary\build\intermediates\bundles\debug\res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="D:\StudioSpace\AngeForPatient\timeslibrary\src\androidTest\res"/><source path="D:\StudioSpace\AngeForPatient\timeslibrary\build\generated\res\rs\androidTest\debug"/><source path="D:\StudioSpace\AngeForPatient\timeslibrary\build\generated\res\resValues\androidTest\debug"/></dataSet><dataSet config="debug" from-dependency="true" generated-set="debug$Generated"><source path="D:\StudioSpace\AngeForPatient\timeslibrary\build\intermediates\bundles\debug\res"><file name="calendar_bg_selector" path="D:\StudioSpace\AngeForPatient\timeslibrary\build\intermediates\bundles\debug\res\color\calendar_bg_selector.xml" qualifiers="" type="color"/><file name="calendar_text_selector" path="D:\StudioSpace\AngeForPatient\timeslibrary\build\intermediates\bundles\debug\res\color\calendar_text_selector.xml" qualifiers="" type="color"/><file name="month" path="D:\StudioSpace\AngeForPatient\timeslibrary\build\intermediates\bundles\debug\res\layout\month.xml" qualifiers="" type="layout"/><file name="week" path="D:\StudioSpace\AngeForPatient\timeslibrary\build\intermediates\bundles\debug\res\layout\week.xml" qualifiers="" type="layout"/><file path="D:\StudioSpace\AngeForPatient\timeslibrary\build\intermediates\bundles\debug\res\values\values.xml" qualifiers=""><color name="calendar_bg">#ffffffff</color><string name="invalid_date">预约时间必须在 %1$s - %2$s 范围内。</string><color name="calendar_text_unselectable">#7f778088</color><dimen name="calendar_text_medium">18sp</dimen><color name="calendar_selected_day_bg">#ff379bff</color><color name="calendar_text_active">#ff778088</color><color name="calendar_inactive_month_bg">#ffffffff</color><dimen name="calendar_day_headers_paddingbottom">4dp</dimen><string name="day_name_format">EEE</string><style name="CalendarCell.DayHeader">
+    <item name="android:textColor">@color/calendar_text_active</item>
+    <item name="android:textSize">@dimen/calendar_text_small</item>
+  </style><style name="CalendarCell.CalendarDate">
+    <item name="android:textSize">@dimen/calendar_text_medium</item>
+    <item name="android:background">@color/calendar_bg_selector</item>
+    <item name="android:clickable">true</item>
+    <item name="android:textStyle">bold</item>
+  </style><style name="CalendarCell">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:gravity">center</item>
+  </style><color name="calendar_active_month_bg">#27ca9c</color><dimen name="calendar_month_title_bottommargin">4dp</dimen><string name="month_name_format">MMMM yyyy</string><color name="calendar_text_selected">#ffffffff</color><dimen name="calendar_month_topmargin">16dp</dimen><color name="calendar_text_inactive">#ffffff</color><color name="calendar_divider">#ffbababa</color><dimen name="calendar_text_small">14sp</dimen><style name="CalendarTitle">
+    <item name="android:textSize">@dimen/calendar_text_medium</item>
+    <item name="android:textColor">@color/calendar_text_active</item>
+    <item name="android:textStyle">bold</item>
+  </style></file></source></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\StudioSpace\AngeForPatient\timeslibrary\src\androidTest\res"/><source path="D:\StudioSpace\AngeForPatient\timeslibrary\build\generated\res\rs\androidTest\debug"/><source path="D:\StudioSpace\AngeForPatient\timeslibrary\build\generated\res\resValues\androidTest\debug"/></dataSet><mergedItems/></merger>

@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hb.rimi.angel.activity.pay.WxFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/wxf_tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="@string/hello_blank_fragment"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/fragment_btn_wx_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_home_menu_txt"
+        android:background="@color/color_pay_btn"
+        android:text="立即支付(WX)"
+        android:textColor="@color/white"
+        android:textSize="@dimen/s16p"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_login_bg"
+    android:orientation="vertical">
+    <!--顶部-->
+    <!--<include layout="@layout/include_reg_top"></include>-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ra_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_blue_reg"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/label_reg"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/dimen_login_left"
+                android:background="@color/color_view_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_login_left">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/icon_reg_phone" />
+
+                <EditText
+                    android:id="@+id/re_et_telephone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:background="@color/trans"
+                    android:hint="@string/str_reg_hint_phone"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/dimen_reg_brn"
+                android:paddingLeft="@dimen/dimen_login_left"
+                android:paddingRight="@dimen/dimen_login_left"
+                android:paddingTop="@dimen/dimen_reg_brn">
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/icon_reg_email" />
+
+                <EditText
+                    android:id="@+id/re_et_code"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:layout_weight="7"
+                    android:background="@color/trans"
+                    android:hint="@string/str_reg_hint_code"
+                    android:inputType="number"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et" />
+
+                <Button
+                    android:id="@+id/reg_btn_click_get"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="3"
+                    android:background="@color/color_blue_reg"
+                    android:text="@string/str_reg_click_get"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_login_left">
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/icon_reg_psd" />
+
+                <EditText
+                    android:id="@+id/re_et_psd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:background="@color/trans"
+                    android:hint="@string/str_reg_hint_psd"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_login_left">
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/icon_reg_psd" />
+
+                <EditText
+                    android:id="@+id/re_et_spsd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:background="@color/trans"
+                    android:hint="@string/str_reg_hint_spsd"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+
+
+            <Button
+                android:id="@+id/re_btn_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_login_left"
+                android:background="@color/color_blue_reg"
+                android:text="@string/label_reg"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_login_btn" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

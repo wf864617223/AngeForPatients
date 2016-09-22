@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_mva_bg"
+    android:orientation="vertical"
+    tools:context="com.hb.rimi.angel.activity.home.MedicalVoucherActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mva_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11A8BB"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/str_home_menu_4"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+
+        <LinearLayout
+            android:id="@+id/mva_ll_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/dimen_login_left">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_aa_right_iv"
+                android:layout_height="@dimen/dimen_aa_right_iv"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/selector_mva_home"
+                android:scaleType="centerInside" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/order_list_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mva_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+</android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
+

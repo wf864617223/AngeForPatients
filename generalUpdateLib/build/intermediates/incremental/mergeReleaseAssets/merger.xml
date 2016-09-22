@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\StudioSpace\AngeForPatient\generalUpdateLib\src\main\assets"><file name="checkvercode.json" path="D:\StudioSpace\AngeForPatient\generalUpdateLib\src\main\assets\checkvercode.json"/></source><source path="D:\StudioSpace\AngeForPatient\generalUpdateLib\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\StudioSpace\AngeForPatient\generalUpdateLib\src\release\assets"/></dataSet></merger>

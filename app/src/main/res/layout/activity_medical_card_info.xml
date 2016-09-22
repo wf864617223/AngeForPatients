@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_round_corners_bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/color_view_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_login_left">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="right|center_vertical"
+                android:src="@mipmap/icon_reg_psd"
+                android:text="@string/str_imci_no"
+                android:textSize="@dimen/s14p" />
+
+            <TextView
+                android:id="@+id/imci_temp_icno"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_weight="7.5"
+                android:background="@color/trans"
+                android:singleLine="true"
+                android:textColorHint="@color/color_hint"
+                android:textSize="@dimen/s14p" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_login_left">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="right|center_vertical"
+                android:src="@mipmap/icon_reg_psd"
+                android:text="@string/str_imci_name"
+                android:textSize="@dimen/s14p" />
+
+            <EditText
+                android:id="@+id/tv_add_userName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_weight="7.5"
+                android:background="@color/trans"
+                android:hint="@string/str_imci_must"
+                android:singleLine="true"
+                android:textColorHint="@color/color_hint"
+                android:textSize="@dimen/s14p" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/color_view_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_login_left">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="right|center_vertical"
+                android:src="@mipmap/icon_reg_psd"
+                android:text="@string/str_imci_sex"
+                android:textSize="@dimen/s14p" />
+
+            <RadioGroup
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_weight="7.5"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_man"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="男" />
+
+                <RadioButton
+                    android:id="@+id/rb_woman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="女" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/color_view_line" />
+
+        <LinearLayout
+            android:id="@+id/ll_date_choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_login_left">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="right|center_vertical"
+                android:src="@mipmap/icon_reg_psd"
+                android:text="@string/str_imci_time"
+                android:textSize="@dimen/s14p" />
+
+            <TextView
+                android:id="@+id/tv_add_userBir"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_weight="7.5"
+                android:background="@color/trans"
+                android:hint="@string/str_imci_must"
+                android:singleLine="true"
+                android:textColorHint="@color/color_hint"
+                android:textSize="@dimen/s14p" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/color_view_line" />
+
+        <LinearLayout
+            android:id="@+id/imci_ll_last_menses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_login_left">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="right|center_vertical"
+                android:src="@mipmap/icon_reg_psd"
+                android:text="@string/str_baa_last_menses"
+                android:textSize="@dimen/s14p" />
+
+            <TextView
+                android:id="@+id/baa_et_last_menses"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_weight="7.5"
+                android:background="@color/trans"
+                android:hint="@string/str_imci_must"
+                android:singleLine="true"
+                android:textColorHint="@color/color_hint"
+                android:textSize="@dimen/s14p" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

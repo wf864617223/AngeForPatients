@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hb.rimi.angel.activity.home.BillPaymentActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mra_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11A8BB"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/label_medical_reminder"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+
+
+        <ImageView
+            android:id="@+id/iv_kefu_phone"
+            android:layout_width="@dimen/dimen_aa_right_iv"
+            android:layout_height="@dimen/dimen_aa_right_iv"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="@dimen/dimen_login_left"
+            android:src="@drawable/selector_mva_home" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mra_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+</LinearLayout>
+

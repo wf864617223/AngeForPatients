@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.mine.ChangePwdActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/changPwd_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11A8BB"
+        android:minHeight="?attr/actionBarSize">
+        <ImageView
+            android:id="@+id/iv_finish"
+            android:src="@mipmap/arrow"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="@string/str_mine_changePwd"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn"/>
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="#EEEFF1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:text="@string/str_mine_phoneNum"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_changPwd_phone"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/dimen_login_et"
+                    android:textColor="#11A8BB"
+                    android:text="123456789"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et"
+                    android:text="@string/str_mine_yanzheng_identifyingCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_identifyingCode"
+                    android:inputType="number"
+                    android:layout_gravity="center"
+                    android:background="#FBFBFB"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et"
+                    android:layout_marginLeft="20dp"
+                    android:hint="请输入短信随机验证码"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:text="获取"
+                    android:id="@+id/btn_getNum"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#ffffff"
+                    android:background="@mipmap/btn_changepwd"
+                    android:layout_gravity="center"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:background="#FBFBFB"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et"
+                    android:text="@string/str_mine_oldPwd"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_oldPwd"
+                    android:background="#FBFBFB"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et"
+                    android:inputType="textPassword"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="#FBFBFB"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:text="@string/str_mine_newPwd"
+                    android:layout_marginLeft="10dp"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_newPwd"
+                    android:background="#FBFBFB"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et"
+                    android:inputType="textPassword"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="#FBFBFB"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:text="@string/str_mine_affinePwd"
+                    android:layout_marginLeft="10dp"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_affinePwd"
+                    android:background="#FBFBFB"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="28px"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+            <Button
+                android:id="@+id/btn_affinePwd"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:text="@string/str_mine_ok_change_pwd"
+                android:textColor="#ffffff"
+                android:background="@mipmap/btn_changepwd"
+                android:layout_margin="@dimen/dimen_login_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

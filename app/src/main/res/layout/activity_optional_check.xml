@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/oca_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11A8BB"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/label_oca"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+
+        <LinearLayout
+            android:id="@+id/oca_ll_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/dimen_login_left">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_aa_right_iv"
+                android:layout_height="@dimen/dimen_aa_right_iv"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/icon_aa_hot_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dimen_aa_right_line"
+                android:text="@string/str_aa_advisory_hotline"
+                android:textColor="@color/white"
+                android:textSize="@dimen/s10p" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/oca_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

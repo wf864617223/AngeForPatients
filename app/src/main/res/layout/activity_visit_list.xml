@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hb.rimi.angel.activity.home.CheckPaymentActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/vla_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11A8BB"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/str_vist_list"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+
+
+        <LinearLayout
+            android:id="@+id/aa_ll_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/dimen_login_left">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_aa_right_iv"
+                android:layout_height="@dimen/dimen_aa_right_iv"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/icon_aa_hot_line" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dimen_aa_right_line"
+                android:text="@string/str_aa_advisory_hotline"
+                android:textColor="@color/white"
+                android:textSize="@dimen/s10p" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/vla_et_start_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dimen_reg_brn"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:singleLine="true"
+            android:text="2016-06-01" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/str_vla_to" />
+
+        <EditText
+            android:id="@+id/vla_et_end_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:singleLine="true"
+            android:text="2016-06-20" />
+
+        <Button
+            android:id="@+id/vla_btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_reg_brn"
+            android:layout_marginRight="@dimen/dimen_reg_brn"
+            android:layout_marginTop="@dimen/dimen_reg_brn"
+            android:background="@color/color_blue_reg"
+            android:text="搜索"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/vla_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

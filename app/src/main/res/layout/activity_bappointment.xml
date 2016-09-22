@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_mva_bg"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/baa_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11A8BB"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/bpa_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/label_appointment_pay"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+
+        <LinearLayout
+            android:id="@+id/ba_ll_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/dimen_login_left">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_aa_right_iv"
+                android:layout_height="@dimen/dimen_aa_right_iv"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/icon_aa_hot_line" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dimen_aa_right_line"
+                android:text="@string/str_aa_advisory_hotline"
+                android:textColor="@color/white"
+                android:textSize="@dimen/s10p" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_mva_padding_left"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_mva_padding_Top">
+
+                <TextView
+                    android:id="@+id/baa_tv_project"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:textColor="@color/color_home_menu_txt"
+                    android:textSize="@dimen/s18p"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/baa_tv_project_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_home_menu_txt"
+                    android:textSize="@dimen/s16p" />
+
+                <TextView
+                    android:id="@+id/baa_tv_des_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="更多详情..."
+                    android:textColor="#0777e9"
+                    android:textSize="@dimen/s16p" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_ba_notice"
+                android:layout_marginTop="@dimen/dimen_ba_notice"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_card_padding">
+
+                <EditText
+                    android:id="@+id/baa_et_input_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:background="@drawable/shape_round_corners_time"
+                    android:drawableLeft="@mipmap/icon_ba_time_select"
+                    android:focusable="false"
+                    android:hint="@string/str_baa_input_apptime"
+                    android:padding="@dimen/dimen_ba_notice" />
+
+                <TextView
+                    android:id="@+id/ba_tv_time_notice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_ba_notice"
+                    android:visibility="gone" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/baa_recyclerView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"></android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_ba_notice">
+
+                <EditText
+                    android:id="@+id/ba_et_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/shape_round_corners_time"
+                    android:gravity="top"
+                    android:hint="填写备注信息"
+                    android:maxLength="140"
+                    android:padding="@dimen/dimen_ba_notice"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_ba_notice">
+
+                <include layout="@layout/layout_user_info" />
+            </LinearLayout>
+
+            <include layout="@layout/include_pay"></include>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

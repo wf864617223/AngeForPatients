@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#11a8bb">
+
+        <TextView
+            android:id="@+id/tv_DOCTOR_NAME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="预约医生"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_ITEM_NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="检查项"
+       />
+
+    <TextView
+        android:id="@+id/tv_PATIENT_NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="就诊病人" />
+
+    <TextView
+        android:id="@+id/tv_PHONE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/tv_BESPOKE_TIME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="预约时间" />
+
+    <TextView
+        android:id="@+id/tv_IC_TYPE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone" />
+</LinearLayout>

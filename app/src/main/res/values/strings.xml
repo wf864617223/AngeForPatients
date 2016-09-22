@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">安琪儿患者</string>
+    <string name="tab_item_home">首页</string>
+    <string name="tab_item_find">发现</string>
+    <string name="tab_item_shop">商城</string>
+    <string name="tab_item_my">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">支付中，请稍后...</string>
+    <string name="find_frag">find_frag</string>
+    <string name="marker_frag">尽情期待...</string>
+    <string name="mine_frag">mine_frag</string>
+
+    <!--商城-->
+    <string name="str_shop_hot_search">热门搜索</string>
+
+    <!--我的-->
+    <string name="label_mine">我的安琪儿</string>
+    <string name="str_mine_change_phone">修改手机号码</string>
+    <string name="str_mine_chanPh_yanzheng">验证码</string>
+    <string name="str_mine_affine_changePhone">确认修改</string>
+    <string name="str_mine_safe_loginout">安全退出</string>
+    <string name="str_imfb_customer_specialist">我的客户专员</string>
+    <string name="str_order_ing">未支付</string>
+    <string name="str_order_ed">已支付</string>
+    <string name="str_imfb_myorder">我的订单</string>
+    <string name="str_imfb_edit_psd">修改密码</string>
+    <string name="str_imfb_complaints_suggestions">投诉建议</string>
+    <string name="str_imfb_mymessage">我的消息</string>
+    <string name="str_imfb_about_app">关于app</string>
+    <string name="str_imfb_changePhone">修改手机号码</string>
+    <string name="str_imfb_phone">13000000000</string>
+    <string name="str_mine_changePwd">修改密码</string>
+    <string name="str_mine_myadvice">投诉建议</string>
+    <string name="str_mine_myorder">我的订单</string>
+    <string name="str_mine_mineinformation">个人信息</string>
+    <string name="str_mine_phoneNum">手机号码</string>
+    <string name="str_mine_yanzheng_identifyingCode">验证码</string>
+    <string name="str_mine_oldPwd">旧密码</string>
+    <string name="str_mine_newPwd">新密码</string>
+    <string name="str_mine_affinePwd">确认密码</string>
+    <string name="str_mine_ok_change_pwd">确认修改</string>
+
+    <!--关于APP-->
+    <string name="str_about_app_one">版权所有： 成都西区安琪儿妇产医院有限公司</string>
+    <string name="str_about_app_two">技术支持：成都睿峰科技有限公司</string>
+    <!--登录-->
+    <string name="str_cancel">取消</string>
+    <string name="label_login">登录</string>
+    <string name="str_la_username">账号</string>
+    <string name="str_la_psd">密码</string>
+    <string name="str_username_hint">手机号码</string>
+    <string name="str_psd_hint">6~16位字符，区分大小写</string>
+    <string name="str_la_forget">忘记密码？</string>
+    <string name="str_la_reg">注册</string>
+    <string name="str_la_quick_login">快捷登录</string>
+    <string name="str_login_wx">微信登录</string>
+    <string name="str_login_alpay">支付宝登录</string>
+    <string name="label_reg">注册</string>
+    <string name="str_reg_hint_phone">请输入手机号</string>
+    <string name="str_reg_hint_code">请输入验证码</string>
+    <string name="str_reg_hint_psd">密码(6~16位字符，区分大小写)</string>
+    <string name="str_reg_hint_spsd">确认密码(6~16位字符，区分大小写)</string>
+    <string name="str_reg_click_get">点击获取</string>
+    <string name="label_forget_sone">忘记密码</string>
+    <string name="label_forget_next">下一步</string>
+    <string name="label_forget_save">保存</string>
+    <string name="str_fsone_code">验证码</string>
+    <string name="str_fsone_username">  账号</string>
+    <string name="str_fstwo_psd">密码</string>
+    <string name="str_fstwo_spsd">确认密码</string>
+
+    <!--首页菜单-->
+    <string name="str_home_menu_1">预约挂号</string>
+    <string name="str_home_menu_2">B超预约</string>
+    <string name="str_home_menu_3">检查缴费</string>
+    <string name="str_home_menu_4">就诊凭证</string>
+    <string name="str_home_menu_5">就诊提醒</string>
+    <string name="str_home_menu_6">电子报告</string>
+
+    <string name="str_la_default_user">15123309125</string>
+    <string name="str_la_default_psd">123456</string>
+    <string name="label_appointment">选择科室</string>
+    <string name="str_aa_advisory_hotline">咨询热线</string>
+
+
+    <!--预约挂号-->
+    <string name="label_gla">妇科医生</string>
+    <string name="label_doctor_detail">医生详情</string>
+    <string name="str_dda_from">来自</string>
+    <string name="str_dda_individual_resume">个人简介</string>
+    <string name="str_dda_professional_qualification">专业资质</string>
+    <string name="str_dda_good_field">擅长领域</string>
+    <string name="str_dda_appointment_time">预约时间</string>
+    <string name="label_appointment_pay">预约支付</string>
+    <string name="str_ip_pay_amount">支付金额：</string>
+    <string name="str_ip_pay_amount_unit">元</string>
+    <string name="str_ip_pay_mothed_wx">微信支付</string>
+    <string name="str_ip_pay_mothed_alpay">支付宝支付</string>
+    <string name="str_ip_pay_btn">立即支付</string>
+    <string name="str_apa_visiting_time">预约时间：</string>
+    <string name="str_imci_card_info">就诊卡信息</string>
+
+    <string name="str_imci_no">就诊卡号：</string>
+    <string name="str_imci_name">姓名：</string>
+    <string name="str_imci_sex">性别：</string>
+    <string name="str_imci_time">出生日期：</string>
+    <string name="str_imci_must">必填</string>
+    <string name="str_pay_mothed">请选择支付方式</string>
+    <string name="str_pay_symbol">￥</string>
+    <string name="str_cpa_money">合计金额：￥</string>
+    <string name="str_imv_label_date">就诊日期：</string>
+    <string name="str_imv_label_doctor">医生姓名：</string>
+    <string name="str_imv_label_voucherDepartment">科室名称：</string>
+    <string name="str_imv_label_voucherIcNo">订单号：</string>
+    <string name="str_imv_label_voucherPerson">订单名称：</string>
+    <string name="label_hcpa">历史检查缴费</string>
+    <string name="label_bpa">缴费支付</string>
+    <string name="str_bpa_online_pay">在线支付</string>
+    <string name="label_oca">B超预约</string>
+    <string name="str_baa_last_menses">末次月经：</string>
+    <string name="str_baa_input_apptime">请选择预约日期</string>
+    <string name="label_medical_reminder">就诊提醒</string>
+    <string name="str_ok">Ok</string>
+
+
+    <string name="str_warning">严禁发送广告淫秽色情内容</string>
+    <string name="str_warning2">一经发现，永久封号</string>
+    <string name="str_warning_default">成功加入【</string>
+    <string name="str_warning_default2">】圈子</string>
+    <string name="label_visit_list">就诊列表</string>
+    <string name="str_vla_to">到</string>
+    <string name="str_dda_individual_from">来自</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="app_tip">提示</string>
+    <string name="label_billpay">缴费支付</string>
+    <string name="str_vist_list">就诊列表</string>
+    <string name="label_shop_car">购物车</string>
+
+    <string name="str_ic_symbol">￥</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lib_find_ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/lib_find_iv_aver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/find_default_aver" />
+
+    <TextView
+        android:id="@+id/lib_find_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/lib_find_iv_aver"
+        android:textColor="#1e1e1e"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lib_find_tv_mannum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lib_find_tv_name"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/lib_find_iv_aver"
+        android:textColor="#555555"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/lib_find_tv_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lib_find_tv_mannum"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/lib_find_iv_aver"
+        android:textColor="#555555"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/lib_find_ll_plus"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/lib_find_tv_mannum"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/lib_find_iv_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@mipmap/icon_find_plus" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

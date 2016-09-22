@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_login_bg"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/apa_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_blue_reg"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/apa_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/label_appointment_pay"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+
+        <LinearLayout
+            android:id="@+id/apa_ll_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/dimen_login_left">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_aa_right_iv"
+                android:layout_height="@dimen/dimen_aa_right_iv"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/icon_aa_hot_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dimen_aa_right_line"
+                android:text="@string/str_aa_advisory_hotline"
+                android:textColor="@color/white"
+                android:textSize="@dimen/s10p" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dimen_login_left">
+
+                <ImageView
+                    android:id="@+id/apa_iv_docimg"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/ic_launcher" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dimen_reg_brn"
+                    android:layout_toRightOf="@id/apa_iv_docimg"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/apa_tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_home_menu_txt"
+                        android:textSize="@dimen/s18p" />
+
+                    <TextView
+                        android:id="@+id/apa_tv_position"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_mine_padding"
+                        android:textColor="@color/color_home_menu_txt"
+                        android:textSize="@dimen/s16p" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/dimen_dda_time"
+                android:paddingLeft="@dimen/dimen_login_left"
+                android:paddingRight="@dimen/dimen_login_left"
+                android:paddingTop="@dimen/dimen_dda_time">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@mipmap/icon_appointment_focus" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_dda_time"
+                    android:text="@string/str_apa_visiting_time"
+                    android:textSize="@dimen/dimen_login_et" />
+
+                <TextView
+                    android:id="@+id/apa_tv_visiting_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+
+            <!--<include layout="@layout/activity_medical_card_info"></include>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <EditText
+                    android:id="@+id/apa_et_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/shape_round_corners_time"
+                    android:gravity="top"
+                    android:hint="填写备注信息"
+                    android:maxLength="140"
+                    android:padding="@dimen/dimen_ba_notice"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <include
+                    android:id="@+id/include_add_user"
+                    layout="@layout/layout_user_info" />
+            </LinearLayout>
+
+            <include layout="@layout/include_pay"></include>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

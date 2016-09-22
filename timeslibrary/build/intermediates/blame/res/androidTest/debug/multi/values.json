@@ -1,0 +1,291 @@
+[
+    {
+        "outputFile": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 58,
+                        "endOffset": 109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 114,
+                    "endColumn": 47,
+                    "endOffset": 157
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 162,
+                    "endColumn": 52,
+                    "endOffset": 210
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 215,
+                    "endColumn": 62,
+                    "endOffset": 273
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 215,
+                        "endColumn": 62,
+                        "endOffset": 273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 278,
+                    "endColumn": 60,
+                    "endOffset": 334
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 339,
+                    "endColumn": 56,
+                    "endOffset": 391
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 396,
+                    "endColumn": 56,
+                    "endOffset": 448
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 396,
+                        "endColumn": 56,
+                        "endOffset": 448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 453,
+                    "endColumn": 58,
+                    "endOffset": 507
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 512,
+                    "endColumn": 62,
+                    "endOffset": 570
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 575,
+                    "endColumn": 64,
+                    "endOffset": 635
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 640,
+                    "endColumn": 63,
+                    "endOffset": 699
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 704,
+                    "endColumn": 55,
+                    "endOffset": 755
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 760,
+                    "endColumn": 51,
+                    "endOffset": 807
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 812,
+                    "endColumn": 50,
+                    "endOffset": 858
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 863,
+                    "endColumn": 47,
+                    "endOffset": 906
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 911,
+                    "endColumn": 65,
+                    "endOffset": 972
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 911,
+                        "endColumn": 65,
+                        "endOffset": 972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 977,
+                    "endColumn": 55,
+                    "endOffset": 1028
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1033,
+                    "endLine": 23,
+                    "endColumn": 10,
+                    "endOffset": 1215
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1220,
+                    "endLine": 29,
+                    "endColumn": 10,
+                    "endOffset": 1505
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1510,
+                    "endLine": 33,
+                    "endColumn": 10,
+                    "endOffset": 1696
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1701,
+                    "endLine": 38,
+                    "endColumn": 10,
+                    "endOffset": 1926
+                },
+                "from": {
+                    "file": "D:\\StudioSpace\\AngeForPatient\\timeslibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            }
+        ]
+    }
+]

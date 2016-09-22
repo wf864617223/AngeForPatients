@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_login_bg"
+    android:orientation="vertical"
+    tools:context=".activity.mine.MyAdviceActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/maa_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11A8BB"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="@string/str_mine_myadvice"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/et_myAdvice"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="16dp"
+        android:maxLength="145"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_edittext_selector"
+        android:gravity="top"
+        android:hint="如果您有什么建议请在这里留言吧！(可输入140字)"
+        android:padding="5dp"
+        android:textColorHint="@color/color_hint" />
+
+    <Button
+        android:id="@+id/btn_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@mipmap/btn_changepwd"
+        android:text="提交"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/dimen_login_btn" />
+</LinearLayout>

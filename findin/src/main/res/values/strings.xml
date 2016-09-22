@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FindIm</string>
+    <string name="call_version_inconsistent">通话协议版本不一致</string>
+    <string name="network_unstable">网络不稳定</string>
+    <string name="no_call_data">没有通话数据</string>
+    <string name="switch_camera">切换摄像头</string>
+    <string name="stop_record">停止录制</string>
+    <string name="record_finish_toast">录制完毕，文件存储在%s</string>
+    <string name="at_your_in_group">%s在群聊中@了你</string>
+    <string name="group_nick">聊天室名称:</string>
+    <string name="group_owner">群主：</string>
+    <string name="serach_group_message">消息搜索</string>
+    <string name="messages_are_empty">聊天记录已被清空</string>
+    <string name="search_contanier">搜索："%s"</string>
+    <string name="em_user_remove">此用户已被移除</string>
+</resources>

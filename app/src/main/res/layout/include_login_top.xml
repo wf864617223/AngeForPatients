@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/color_blue_reg"
+    >
+
+    <TextView
+        android:paddingLeft="@dimen/dimen_login_left"
+        android:id="@+id/la_tv_cancel"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:text="@string/str_cancel"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_login_cancel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:text="@string/label_login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_login_btn" />
+
+
+</RelativeLayout>

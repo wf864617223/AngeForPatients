@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_login_bg"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/fsta_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_blue_reg"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/label_forget_sone"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_login_btn" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/dimen_login_left"
+                android:background="@color/color_view_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_login_left">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:src="@mipmap/icon_reg_psd"
+                    android:text="@string/str_fstwo_psd"
+                    android:textSize="@dimen/dimen_login_et" />
+
+                <EditText
+                    android:id="@+id/fsta_et_psd"
+                    android:layout_width="0dp"
+                    android:inputType="textPassword"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:layout_weight="7.5"
+                    android:background="@color/trans"
+                    android:hint="@string/str_reg_hint_psd"
+                    android:singleLine="true"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_login_left">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:src="@mipmap/icon_reg_psd"
+                    android:text="@string/str_fstwo_spsd"
+                    android:textSize="@dimen/dimen_login_et" />
+
+                <EditText
+                    android:id="@+id/fsta_et_spsd"
+                    android:layout_width="0dp"
+                    android:inputType="textPassword"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:layout_weight="7.5"
+                    android:background="@color/trans"
+                    android:hint="@string/str_reg_hint_spsd"
+                    android:singleLine="true"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

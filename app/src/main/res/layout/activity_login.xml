@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_login_bg"
+    android:orientation="vertical">
+    <!--顶部-->
+    <include layout="@layout/include_login_top"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/dimen_login_left"
+                android:background="@color/color_view_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_login_left"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/icon_lgoin_phone" />
+
+
+                <EditText
+                    android:id="@+id/la_et_telephone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:background="@color/trans"
+                    android:hint="@string/str_username_hint"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_login_left"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/icon_login_psd" />
+
+                <EditText
+                    android:id="@+id/la_et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:background="@color/trans"
+                    android:hint="@string/str_psd_hint"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/dimen_login_et" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_view_line" />
+
+            <Button
+                android:id="@+id/la_btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_login_left"
+                android:background="@color/color_blue_reg"
+                android:text="@string/label_login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_login_btn" />
+
+            <RelativeLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dimen_login_left"
+                android:paddingRight="@dimen/dimen_login_left">
+
+                <TextView
+                    android:id="@+id/la_tv_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/str_la_reg"
+                    android:textColor="@color/color_blue_reg"
+                    android:textSize="@dimen/dimen_login_wx_alpay" />
+
+                <TextView
+                    android:id="@+id/la_tv_forget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/str_la_forget"
+                    android:textColor="@color/color_black_two"
+                    android:textSize="@dimen/dimen_login_wx_alpay" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_weight="1"
+                    android:background="@color/color_view_line" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_la_quick_login"
+                    android:textColor="@color/color_quick_login"
+                    android:textSize="@dimen/dimen_login_wx_alpay"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_weight="1"
+                    android:background="@color/color_view_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="26px"
+                android:paddingLeft="138px"
+                android:paddingRight="138px"
+                android:paddingTop="26px"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/icon_wx"
+                        android:text="@string/str_la_forget"
+                        android:textColor="@color/skyBlue"
+                        android:textSize="@dimen/s14p" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="26px"
+                        android:text="@string/str_login_wx"
+                        android:textColor="@color/color_black_two"
+                        android:textSize="@dimen/dimen_login_wx_alpay" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/icon_alpay"
+                        android:text="@string/str_la_reg"
+                        android:textColor="@color/skyBlue"
+                        android:textSize="@dimen/s14p" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="26px"
+                        android:text="@string/str_login_alpay"
+                        android:textColor="@color/color_black_two"
+                        android:textSize="@dimen/dimen_login_wx_alpay" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

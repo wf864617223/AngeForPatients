@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/menu_bg_selector"
+    android:clickable="true"
+    android:id="@+id/ig_rl"
+    android:gravity="center_vertical"
+    android:padding="@dimen/dimen_login_left">
+
+    <ImageView
+        android:id="@+id/ig_iv_docimg"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <LinearLayout android:layout_toRightOf="@id/ig_iv_docimg"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_reg_brn"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ig_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_aa_doctor_name"
+            android:textSize="@dimen/s18p" />
+
+        <TextView
+            android:id="@+id/ig_tv_position"
+            android:layout_marginTop="@dimen/dimen_mine_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_home_menu_txt"
+            android:textSize="@dimen/s16p" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/icon_aa_right" />
+
+</RelativeLayout>

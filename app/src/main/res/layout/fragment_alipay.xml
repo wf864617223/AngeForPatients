@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hb.rimi.angel.activity.pay.AlipayFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/alf_tv_result"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+       android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/fragment_btn_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_home_menu_txt"
+        android:background="@color/color_pay_btn"
+        android:text="立即支付(AL)"
+        android:textColor="@color/white"
+        android:textSize="@dimen/s16p" />
+</LinearLayout>

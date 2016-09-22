@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dimen_mva_padding_Top"
+    android:paddingLeft="@dimen/dimen_mva_padding_left"
+    android:paddingRight="@dimen/dimen_mva_padding_left"
+    android:paddingTop="@dimen/dimen_mva_padding_Top">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_round_corners_top"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_mva_margin_Top">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_round_corners_bottom"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dimen_mva_margin_Top"
+        android:paddingLeft="@dimen/dimen_mva_margin_Left"
+        android:paddingRight="@dimen/dimen_mva_margin_Left"
+        android:paddingTop="@dimen/dimen_mva_margin_Top">
+
+        <TextView
+            android:id="@+id/imv_tv_voucherType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单类型"
+            android:textColor="@color/color_mva_type"
+            android:textSize="@dimen/dimen_mva_type" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/dimen_mva_margin_Top"
+        android:layout_marginRight="@dimen/dimen_mva_margin_Top"
+        android:background="@color/color_view_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_round_corners"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dimen_mva_margin_Top"
+        android:paddingTop="@dimen/dimen_mva_margin_Top">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_mva_margin_Top"
+            android:paddingLeft="@dimen/dimen_mva_margin_Left"
+            android:paddingRight="@dimen/dimen_mva_margin_Left"
+            android:paddingTop="@dimen/dimen_mva_margin_Top">
+
+            <TextView
+                android:id="@+id/imv_label_order_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_imv_label_voucherPerson"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+
+            <TextView
+                android:id="@+id/imv_tv_order_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_mva_margin_Top"
+            android:paddingLeft="@dimen/dimen_mva_margin_Left"
+            android:paddingRight="@dimen/dimen_mva_margin_Left"
+            android:paddingTop="@dimen/dimen_mva_margin_Top">
+
+            <TextView
+                android:id="@+id/imv_label_voucherIcNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_imv_label_voucherIcNo"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+
+            <TextView
+                android:id="@+id/imv_tv_voucherIcNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/imv_ll_project_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_mva_margin_Top"
+            android:paddingLeft="@dimen/dimen_mva_margin_Left"
+            android:paddingRight="@dimen/dimen_mva_margin_Left"
+            android:paddingTop="@dimen/dimen_mva_margin_Top">
+
+            <TextView
+                android:id="@+id/imv_label_project_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="项目名称："
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+
+            <TextView
+                android:id="@+id/imv_tv_project_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/imv_ll_voucherDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_mva_margin_Top"
+            android:paddingLeft="@dimen/dimen_mva_margin_Left"
+            android:paddingRight="@dimen/dimen_mva_margin_Left"
+            android:paddingTop="@dimen/dimen_mva_margin_Top">
+
+            <TextView
+                android:id="@+id/imv_label_voucherDepartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_imv_label_voucherDepartment"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+
+            <TextView
+                android:id="@+id/imv_tv_voucherDepartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/imv_ll_doctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_mva_margin_Top"
+            android:paddingLeft="@dimen/dimen_mva_margin_Left"
+            android:paddingRight="@dimen/dimen_mva_margin_Left"
+            android:paddingTop="@dimen/dimen_mva_margin_Top">
+
+            <TextView
+                android:id="@+id/imv_label_doctor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_imv_label_doctor"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+
+            <TextView
+                android:id="@+id/imv_tv_doctor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/imv_ll_app_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_mva_margin_Top"
+            android:paddingLeft="@dimen/dimen_mva_margin_Left"
+            android:paddingRight="@dimen/dimen_mva_margin_Left"
+            android:paddingTop="@dimen/dimen_mva_margin_Top">
+
+            <TextView
+                android:id="@+id/imv_label_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_imv_label_date"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+
+            <TextView
+                android:id="@+id/imv_tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/imv_ll_pay_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_mva_margin_Top"
+            android:paddingLeft="@dimen/dimen_mva_margin_Left"
+            android:paddingRight="@dimen/dimen_mva_margin_Left"
+            android:paddingTop="@dimen/dimen_mva_margin_Top">
+
+            <TextView
+                android:id="@+id/imv_label_pay_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付时间："
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+
+            <TextView
+                android:id="@+id/imv_tv_pay_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/imv_ll_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_mva_margin_Top"
+            android:paddingLeft="@dimen/dimen_mva_margin_Left"
+            android:paddingRight="@dimen/dimen_mva_margin_Left"
+            android:paddingTop="@dimen/dimen_mva_margin_Top">
+
+            <TextView
+                android:id="@+id/imv_label_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="备注信息："
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+
+            <TextView
+                android:id="@+id/imv_tv_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_mva_person"
+                android:textSize="@dimen/dimen_mva_person" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
